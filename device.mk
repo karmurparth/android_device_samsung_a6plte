@@ -17,7 +17,6 @@
 # Overlay
 PRODUCT_PACKAGE_OVERLAYS += \
 	$(LOCAL_PATH)/overlay \
-	$(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
 	framework-res
@@ -186,9 +185,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	android.hardware.light@2.0-service.samsung-qcom
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-	vendor.lineage.livedisplay@2.0-service.samsung-qcom
+
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -329,9 +326,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-# Trust HAL
-PRODUCT_PACKAGES += \
-	vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \

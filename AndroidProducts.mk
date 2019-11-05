@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/lineage_a6plte.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_a6plte.mk
